@@ -52,7 +52,8 @@ public class AndroidMusicController {
 	@RequestMapping("/music")
 	@ResponseBody
 	public Object getMusicPath(ModelMap map,HttpSession httpSession,HttpServletRequest request) throws IOException 
-	{
+	{	
+		//为测试Git  专门写了这句话github
 		 Map<String, String> maps = new HashMap<String, String>();
 		 	Date date=new Date();
 		 	SimpleDateFormat s=new SimpleDateFormat("HH:mm:ss");		 	
